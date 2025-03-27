@@ -1,5 +1,6 @@
 APT::Sandbox::User root;
 
+APT::AutoRemove::RecommendsImportant "false";
 APT::Install-Recommends "0";
 APT::Install-Suggests "0";
 
